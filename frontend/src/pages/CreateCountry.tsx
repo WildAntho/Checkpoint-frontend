@@ -53,8 +53,6 @@ export default function CreateCountry() {
   if (loading) return <p>Loading continents...</p>;
   if (error) return <p>Error loading continents: {error.message}</p>;
 
-  console.log(name);
-
   return (
     <section>
       <input

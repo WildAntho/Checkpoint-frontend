@@ -19,7 +19,6 @@ export function HomePage() {
   const navigate = useNavigate();
   const { data } = useQuery(COUNTRY_QUERY);
   const allContries = data?.countries ?? [];
-  console.log("test");
 
   return (
     <section>
